@@ -1,0 +1,141 @@
+/* Reset box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f4f8;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #333;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #0603b3;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #a8d0f0;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2px;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+article {
+    max-width: 760px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #d1dce8;
+    border-radius: 8px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+article h2 {
+    font-size: 1.9rem;
+    color: #1a3c5e;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+}
+
+article time {
+    display: block;
+    font-size: 0.85rem;
+    color: #7a90a4;
+    margin-bottom: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+article figure {
+    margin: 1.5rem 0 0;
+    text-align: center;
+}
+
+article figure img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+article figure figcaption {
+    font-size: 0.82rem;
+    color: #7a90a4;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+aside {
+    max-width: 760px;
+    margin: 1.5rem auto;
+    padding: 1rem 1.5rem;
+    background-color: #e8f0f8;
+    border-left: 4px solid #1a3c5e;
+    border-radius: 4px;
+}
+
+aside h3 {
+    margin-top: 0;
+    color: #1a3c5e;
+}
+
+aside ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin: 0;
+}
+
+aside ul li a {
+    color: #1a3c5e;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+    color: #7a90a4;
+    border-top: 1px solid #d1dce8;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
