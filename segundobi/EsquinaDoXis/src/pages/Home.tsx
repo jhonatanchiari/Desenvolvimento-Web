@@ -3,11 +3,11 @@ import "../styles/utility.css"
 import "../styles/header.css"
 import "../styles/hero.css"
 import Logo from "../assets/logo.svg"
-import Menu from "../assets/menu.svg"
+import Menu from "../assets/Menu.svg"
 import Food from "../assets/food.svg"
 import Delivery from "../assets/delivery.svg"
 import Money from "../assets/money.svg"
-import Close from "../assets/close.svg"
+import Close from "../assets/Close.svg"
 import Button from "../components/Button";
 import Card from "../components/Card";
 import HeroRectangleOne from "../assets/rectangle1.svg"
