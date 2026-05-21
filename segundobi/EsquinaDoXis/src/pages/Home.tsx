@@ -142,22 +142,22 @@ export default function Home() {
           <Card
             icon={Food}
             iconAlt="ícone campeão"
-            title="Produto Vencedor"
-            description="Ideia matadora, nosso time já ganhou diversos eventos de inovação com nosso produto, entre eles podemos citar o CityFarm da FAG e Startup Garage."
+            title="Lanches Incríveis"
+            description="Lanches prensados, crocantes por fora e absurdos por dentro, preparados na hora e entregues quentinhos para você no conforto da sua casa."
           />
 
           <Card
             icon={Money}
             iconAlt="ícone campeão"
-            title="Produto Vencedor"
-            description="Ideia matadora, nosso time já ganhou diversos eventos de inovação com nosso produto, entre eles podemos citar o CityFarm da FAG e Startup Garage."
+            title="Preços Justos"
+            description="Oferecemos os melhores preços do mercado, sem abrir mão da qualidade. Compre com confiança e economize com nossas promoções."
           />
 
           <Card
             icon={Delivery}
             iconAlt="ícone campeão"
-            title="Produto Vencedor"
-            description="Ideia matadora, nosso time já ganhou diversos eventos de inovação com nosso produto, entre eles podemos citar o CityFarm da FAG e Startup Garage."
+            title="Entrega Rápida"
+            description="Entregamos seus lanches quentinhos e saborosos em tempo recorde, para que você possa desfrutar de uma experiência completa."
           />
         </section>
       </section>
