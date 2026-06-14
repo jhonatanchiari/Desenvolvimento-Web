@@ -17,6 +17,11 @@
     border-color: var(--primary-color);
 }
 
+.btn-primary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 .btn-secondary {
     width: 100%;
     background: transparent;
@@ -34,4 +39,9 @@
     background: var(--primary-color);
     color: var(--light-text-color);
     border-color: transparent;
+}
+
+.btn-secondary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
 }
